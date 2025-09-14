@@ -1,0 +1,1 @@
+web: gunicorn lbm-back.wsgi

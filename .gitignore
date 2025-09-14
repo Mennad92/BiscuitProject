@@ -1,0 +1,10 @@
+# Backend Django
+lbm-back/__pycache__/
+lbm-back/db.sqlite3
+lbm-back/*.pyc
+lbm-back/.env
+
+# Frontend React
+frontend/node_modules/
+frontend/build/
+frontend/.env
