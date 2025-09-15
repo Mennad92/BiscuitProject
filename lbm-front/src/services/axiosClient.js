@@ -1,7 +1,7 @@
 import { createAxiosClient } from "./createAxiosClient";
 import { useAuthStore } from "../stores/authStore";
 
-export const BASE_URL = (process.env.REACT_APP_BACKEND_URL || "http://127.0.0.1:8000/") + "api/";
+export const BASE_URL = (process.env.REACT_APP_BACKEND_URL || "https://biscuitproject.onrender.com/") + "api/";
 const REFRESH_TOKEN_URL = BASE_URL + 'refresh/'
 
 function getCurrentAccessToken() {
