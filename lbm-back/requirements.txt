@@ -4,4 +4,7 @@ rest_framework_simplejwt
 psycopg2-binary
 django-cors-headers
 djangorestframework-simplejwt
+whitenoise
 pillow
+gunicorn
+dj-database-url
